@@ -16,7 +16,9 @@ app.use(express.static("public"));
 app.use(cookieParser());
 
 
+import dataRouter from "./routes/data.route.js"
 
+app.use("/api/v1/",dataRouter);
 
 
 export default app;
