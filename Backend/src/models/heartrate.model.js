@@ -19,4 +19,4 @@ const heartRateSchema = new mongoose.Schema({
 });
 
 const HeartRate = mongoose.model('HeartRate', heartRateSchema);
-export {HeartRate};
+export { HeartRate };
